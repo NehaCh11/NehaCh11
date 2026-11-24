@@ -1,6 +1,6 @@
 ## Neha Chaudhary
 
-AI engineer. Currently splitting time between PhD research on speech as a
+AI engineer. Currently splitting time between master's research on speech as a
 signal for cardiac conditions, and building AI agent systems.
 
 ### Automations
@@ -29,7 +29,7 @@ Five rules, learned mostly by breaking them:
 
 ### Research
 
-PhD work on whether speech carries a usable signal for detecting cardiac
+Master's research on whether speech carries a usable signal for detecting cardiac
 conditions — acoustic feature analysis, sequence models over voice recordings,
 and the evaluation traps that make results in this area look better than they
 are. Methods and negative results both; the latter are usually more useful.
