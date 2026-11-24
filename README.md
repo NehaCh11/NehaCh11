@@ -5,7 +5,7 @@ signal for cardiac conditions, and building AI agent systems.
 
 ### Automations
 
-A running log — one row per automation I've built. Everything here is deployed
+A running log, one row per automation I've built. Everything here is deployed
 and running on a schedule, not written once and shelved. Where it runs is a
 link, so you can check the runs yourself.
 
@@ -23,18 +23,19 @@ Five rules, learned mostly by breaking them:
   done without it.
 - **Idempotent.** Running twice does not duplicate work or double-post.
 - **State is visible.** Anything a job remembers between runs is a file in the
-  repo, not a hidden cache — reviewable, and a bad run is fixable with an edit.
+  repo, not a hidden cache. That makes it reviewable, and a bad run fixable with
+  an edit.
 - **Degrade, don't crash.** A scheduled job that loses one query should still
   deliver the rest and say what it missed.
 
 ### Research
 
 Master's research on whether speech carries a usable signal for detecting cardiac
-conditions — acoustic feature analysis, sequence models over voice recordings,
+conditions: acoustic feature analysis, sequence models over voice recordings,
 and the evaluation traps that make results in this area look better than they
 are. Methods and negative results both; the latter are usually more useful.
 
 ### Also working on
 
-AI agent systems — multi-agent orchestration, retrieval pipelines, and
+AI agent systems: multi-agent orchestration, retrieval pipelines, and
 domain-specific analysers. Most of it is in the repo list.
