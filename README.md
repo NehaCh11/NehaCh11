@@ -11,8 +11,9 @@ link, so you can check the runs yourself.
 
 | # | Automation | What it does | Lives in | Runs on |
 | --- | --- | --- | --- | --- |
-| 1 | [arxiv-digest](https://github.com/NehaCh11/research-automations/tree/main/arxiv-digest) | Tracks new arXiv papers across seven speech, cardiac and audio-ML topics and commits a dated digest, skipping anything already reported | [research-automations](https://github.com/NehaCh11/research-automations) | [Actions](https://github.com/NehaCh11/research-automations/actions/workflows/arxiv-digest.yml), daily 07:00 UTC |
+| 1 | [arxiv-digest](https://github.com/NehaCh11/research-automations/tree/main/arxiv-digest) | Tracks new arXiv papers across seven speech, cardiac and audio-ML topics and commits a dated digest, skipping anything already reported | [research-automations](https://github.com/NehaCh11/research-automations) | [Actions](https://github.com/NehaCh11/research-automations/actions/workflows/arxiv-digest.yml), daily 07:17 UTC |
 | 2 | [life-admin](https://github.com/NehaCh11/daily-automations/tree/main/life-admin) | Watches the dates that expire, renew or fall due, and opens an issue when one enters its warning window, once per step however long the job was down | [daily-automations](https://github.com/NehaCh11/daily-automations) | [Actions](https://github.com/NehaCh11/daily-automations/actions/workflows/life-admin.yml), daily 06:15 UTC |
+| 3 | [citation-watch](https://github.com/NehaCh11/research-automations/tree/main/citation-watch) | Follows the citation graph out from three seed papers and watches the published venues arXiv never carries, excluding preprints so it never repeats day 1 | [research-automations](https://github.com/NehaCh11/research-automations) | [Actions](https://github.com/NehaCh11/research-automations/actions/workflows/citation-watch.yml), daily 06:43 UTC |
 
 ### How I build these
 
